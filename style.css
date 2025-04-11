@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #1A275B;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12%;
@@ -15,6 +15,7 @@ body{
 
 .interface{
     max-width: 1280px;
+    font-family: Montserrat;
     margin: 0 auto;
 }
 
@@ -23,10 +24,11 @@ body{
 }
 
 .btn-contato button{
-    padding: 10px 40px;
+    font-family: Montserrat;
+    padding: 10px 30px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00A8FF;
+    background-color: #FFB12C;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -37,16 +39,17 @@ h2.titulo{
     color: #fff;
     font-size: 38px;
     text-align: center;
+    font-family: Montserrat;
 }
 
 h2.titulo span{
-    color: #00A8FF;
+    color: #FFB12C;
     font-size: 38px;
     text-align: center;
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px #00A8FF;
+    box-shadow: 0px 0px 8px #FFB12C;
     transform: scale(1.05);
 }
 
@@ -62,8 +65,10 @@ header > .interface{
 }
 
 header a{
-    color: #5c5c5c;
+    font-family: Montserrat;
+    color: #F5E8B5;
     text-decoration: none;
+    font-weight: bold;
     display: inline-block;
     transition: .2s;
 }
@@ -95,16 +100,18 @@ section.topo-do-site.flex{
 }
 
 .topo-do-site h1{
-    color: #fff;
+    font-family: Montserrat;
+    color: #FFB12C;
     font-size: 42px;
     line-height: 40px;
 }
 
 .topo-do-site .txt-topo-site h1 span{
-    color: #00A8FF;
+    color: #023170;
 }
 
 .topo-do-site .txt-topo-site p{
+    font-family: Montserrat;
     color: #fff;
     margin: 40px 0;
 }
@@ -142,12 +149,12 @@ section.formação .flex{
 
 .formação .formação-box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 20px #ffffff78;
+    box-shadow: 0 0 20px #ffF;
 }
 
 .formação .formação-box i{
     font-size: 70px;
-    color: #00A8FF;
+    color: #023170;
 }
 
 .formação .formação-box h3{
@@ -166,7 +173,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre{
-    color: #fff;
+    color: #FFB12C;
 }
 
 .sobre .txt-sobre h2{
@@ -176,7 +183,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: #00A8FF;
+    color: #023170;
     display: block;
 }
 
@@ -190,18 +197,13 @@ section.sobre .flex{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00A8FF;
+    background-color: #FFB12C;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
 }
 
-/* Estilo do Portfólio */
-section.portfolio{
-    padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
-}
 
 section.portfolio .flex{
     justify-content: space-around;
@@ -236,7 +238,7 @@ section.portfolio .flex{
     justify-content: center;
     font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #F5E8B5;
     opacity: 0;
     transition: .5s;
 }
@@ -283,7 +285,7 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: #00A8FF;
+    background-color: #FFB12C;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -293,7 +295,6 @@ form .btn-enviar input{
 /* Estilo rodapé */
 footer{
     padding: 40px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
 footer .flex{
@@ -305,14 +306,23 @@ footer .line-footer{
 }
 
 .borda{
-    border-top: 2px solid #00A8FF;
+    border-top: 2px solid #023170;
 }
 
 footer .line-footer p i{
-    color: #00A8FF;
+    color: #023170;
     font-size: 22px;
 }
 
 footer .line-footer p a{
-    color: #fff;
+    color: #F5E8B5;
 }
+
+.icone-rebecca {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+} 
